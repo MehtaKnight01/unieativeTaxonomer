@@ -68,7 +68,7 @@ int main(int argc, const char * argv[])
     
     
  //testing new investigation
-    
+   /*
     for(int deep  = 0   ; deep < 5 ; deep++ )
     {
         //testing the tester
@@ -76,7 +76,7 @@ int main(int argc, const char * argv[])
         tester->testYRJvector(deep);
         delete tester;
     }
-
+*/
     
     /*BigTree * bigTree = new BigTree(path_to_the_names_dmp_file, path_to_the_nodes_dmp_file);
     
@@ -106,6 +106,9 @@ int main(int argc, const char * argv[])
     }
     
     */
+    
+    buildingHashDatabase(pattern1R);
+    
     return 0;
 }
 
